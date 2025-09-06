@@ -36,7 +36,7 @@
 ### 🔹 Protected Dashboard
 ![Dashboard Screenshot](./screenshots/dashboard.png)
 
-👉 **Live Demo**: [https://nishant-blog.vercel.app](https://nishant-blog.vercel.app)
+👉 **Live Demo**: [https://nishant-blog.vercel.app](https://blog-app-vert-iota.vercel.app/)
 
 ---
 
@@ -95,80 +95,81 @@
 ---
 
 
-🔑 Key Implementation Details
+## 🔑 Key Implementation Details
 
-Redux + Saga
-	•	Configured with Redux Toolkit for slices
-	•	Saga middleware for async flows & side effects
-	•	Separation of slices and sagas for clean structure
+### Redux + Saga
+• Configured with Redux Toolkit for slices
+• Saga middleware for async flows & side effects
+• Separation of slices and sagas for clean structure
 
-Authentication Flow
-	•	Login form with validation & error handling
-	•	Token persisted in localStorage
-	•	Protected routes via HOC
-	•	Auto session validation on refresh
+### Authentication Flow
+• Login form with validation & error handling
+• Token persisted in localStorage
+• Protected routes via HOC
+• Auto session validation on refresh
 
-Data Fetching
-	•	All async handled via Saga workers
-	•	Loading & error states handled in Redux
-	•	Optimistic updates & proper cleanup
+### Data Fetching
+• All async handled via Saga workers
+• Loading & error states handled in Redux
+• Optimistic updates & proper cleanup
 
-UI/UX
-	•	Tailwind CSS + shadcn/ui components
-	•	Mobile-first responsive design
-	•	Smooth animations & hover states
-
-⸻
-
-📊 Core Pages
-	•	🏠 Home – Highlights app features
-	•	📰 Blog – Post listing with search
-	•	📝 Blog Detail – Individual post view
-	•	📊 Dashboard – Auth-protected user area
-	•	🔑 Login – Auth with demo credentials
-	•	📖 About / Contact – Extra pages
+### UI/UX
+• Tailwind CSS + shadcn/ui components
+• Mobile-first responsive design
+• Smooth animations & hover states
 
 ---
 
-🔒 Security
-	•	✅ Authenticated route protection
-	•	✅ Token validation & persistence
-	•	✅ Error boundaries for runtime safety
-	•	✅ Proxying API routes securely
+## 📊 Core Pages
+• 🏠 Home – Highlights app features
+• 📰 Blog – Post listing with search
+• 📝 Blog Detail – Individual post view
+• 📊 Dashboard – Auth-protected user area
+• 🔑 Login – Auth with demo credentials
+• 📖 About / Contact – Extra pages
+
+---
+
+## 🔒 Security
+• ✅ Authenticated route protection
+• ✅ Token validation & persistence
+• ✅ Error boundaries for runtime safety
+• ✅ Proxying API routes securely
 
 ---
 
 
-🎨 Design System
-	•	Primary Color: #3B82F6 (blue)
-	•	Font: Inter
-	•	Spacing: 8px unit system
-	•	Components: shadcn/ui
-	•	Icons: Lucide React
+## 🎨 Design System
+• Primary Color: #3B82F6 (blue)
+• Font: Inter
+• Spacing: 8px unit system
+• Components: shadcn/ui
+• Icons: Lucide React
 
 ---
 
-📱 Responsive Breakpoints
-	•	Mobile: <768px
-	•	Tablet: 768px–1024px
-	•	Desktop: >1024px
+## 📱 Responsive Breakpoints
+• Mobile: <768px
+• Tablet: 768px–1024px
+• Desktop: >1024px
 
 ---
 
-📝 License
+## 📝 License
 
-This project is licensed under the MIT License – feel free to use, learn, and build upon it.
-
----
-
-🙌 Acknowledgements
-	•	Next.js
-	•	Redux Toolkit
-	•	Redux Saga
-	•	Tailwind CSS
-	•	shadcn/ui
-	•	DummyJSON
+### This project is licensed under the MIT License – feel free to use, learn, and build upon it.
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub — it motivates me to build more!
+## 🙌 Acknowledgements
+• Next.js
+• Typescript
+• Redux Toolkit
+• Redux Saga
+• Tailwind CSS
+• shadcn/ui
+• DummyJSON
+
+---
+
+### ⭐ If you like this project, consider giving it a star on GitHub — it motivates me to build more!
