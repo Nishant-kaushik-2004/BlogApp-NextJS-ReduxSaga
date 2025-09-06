@@ -98,60 +98,60 @@
 ## 🔑 Key Implementation Details
 
 ### Redux + Saga
-• Configured with Redux Toolkit for slices
-• Saga middleware for async flows & side effects
-• Separation of slices and sagas for clean structure
+- Configured with Redux Toolkit for slices
+- Saga middleware for async flows & side effects
+- Separation of slices and sagas for clean structure
 
 ### Authentication Flow
-• Login form with validation & error handling
-• Token persisted in localStorage
-• Protected routes via HOC
-• Auto session validation on refresh
+- Login form with validation & error handling
+- Token persisted in localStorage
+- Protected routes via HOC
+- Auto session validation on refresh
 
 ### Data Fetching
-• All async handled via Saga workers
-• Loading & error states handled in Redux
-• Optimistic updates & proper cleanup
+- All async handled via Saga workers
+- Loading & error states handled in Redux
+- Optimistic updates & proper cleanup
 
 ### UI/UX
-• Tailwind CSS + shadcn/ui components
-• Mobile-first responsive design
-• Smooth animations & hover states
+- Tailwind CSS + shadcn/ui components
+- Mobile-first responsive design
+- Smooth animations & hover states
 
 ---
 
 ## 📊 Core Pages
-• 🏠 Home – Highlights app features
-• 📰 Blog – Post listing with search
-• 📝 Blog Detail – Individual post view
-• 📊 Dashboard – Auth-protected user area
-• 🔑 Login – Auth with demo credentials
-• 📖 About / Contact – Extra pages
+- 🏠 Home – Highlights app features
+- 📰 Blog – Post listing with search
+- 📝 Blog Detail – Individual post view
+- 📊 Dashboard – Auth-protected user area
+- 🔑 Login – Auth with demo credentials
+- 📖 About / Contact – Extra pages
 
 ---
 
 ## 🔒 Security
-• ✅ Authenticated route protection
-• ✅ Token validation & persistence
-• ✅ Error boundaries for runtime safety
-• ✅ Proxying API routes securely
+- ✅ Authenticated route protection
+- ✅ Token validation & persistence
+- ✅ Error boundaries for runtime safety
+- ✅ Proxying API routes securely
 
 ---
 
 
 ## 🎨 Design System
-• Primary Color: #3B82F6 (blue)
-• Font: Inter
-• Spacing: 8px unit system
-• Components: shadcn/ui
-• Icons: Lucide React
+- Primary Color: #3B82F6 (blue)
+- Font: Inter
+- Spacing: 8px unit system
+- Components: shadcn/ui
+- Icons: Lucide React
 
 ---
 
 ## 📱 Responsive Breakpoints
-• Mobile: <768px
-• Tablet: 768px–1024px
-• Desktop: >1024px
+- Mobile: <768px
+- Tablet: 768px–1024px
+- Desktop: >1024px
 
 ---
 
@@ -162,13 +162,13 @@
 ---
 
 ## 🙌 Acknowledgements
-• Next.js
-• Typescript
-• Redux Toolkit
-• Redux Saga
-• Tailwind CSS
-• shadcn/ui
-• DummyJSON
+- Next.js
+- Typescript
+- Redux Toolkit
+- Redux Saga
+- Tailwind CSS
+- shadcn/ui
+- DummyJSON
 
 ---
 
