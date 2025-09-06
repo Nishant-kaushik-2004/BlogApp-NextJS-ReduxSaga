@@ -42,7 +42,7 @@
 
 ## 🛠 Tech Stack
 
-- **Framework**: [Next.js 13+ App Router](https://nextjs.org/)  
+- **Framework**: [Next.js 14+ App Router](https://nextjs.org/)  
 - **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) + [Redux-Saga](https://redux-saga.js.org/)  
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)  
 - **Language**: [TypeScript](https://www.typescriptlang.org/)  
@@ -92,6 +92,8 @@
     Password: emilyspass
     ```
 
+---
+
 
 🔑 Key Implementation Details
 
@@ -126,7 +128,7 @@ UI/UX
 	•	🔑 Login – Auth with demo credentials
 	•	📖 About / Contact – Extra pages
 
-⸻
+---
 
 🔒 Security
 	•	✅ Authenticated route protection
@@ -134,7 +136,8 @@ UI/UX
 	•	✅ Error boundaries for runtime safety
 	•	✅ Proxying API routes securely
 
-⸻
+---
+
 
 🎨 Design System
 	•	Primary Color: #3B82F6 (blue)
@@ -143,20 +146,20 @@ UI/UX
 	•	Components: shadcn/ui
 	•	Icons: Lucide React
 
-⸻
+---
 
 📱 Responsive Breakpoints
 	•	Mobile: <768px
 	•	Tablet: 768px–1024px
 	•	Desktop: >1024px
 
-⸻
+---
 
 📝 License
 
 This project is licensed under the MIT License – feel free to use, learn, and build upon it.
 
-⸻
+---
 
 🙌 Acknowledgements
 	•	Next.js
@@ -166,6 +169,6 @@ This project is licensed under the MIT License – feel free to use, learn, and 
 	•	shadcn/ui
 	•	DummyJSON
 
-⸻
+---
 
 ⭐ If you like this project, consider giving it a star on GitHub — it motivates me to build more!
