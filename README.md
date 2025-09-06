@@ -140,18 +140,18 @@
 
 
 ## 🎨 Design System
-- Primary Color: #3B82F6 (blue)
-- Font: Inter
-- Spacing: 8px unit system
-- Components: shadcn/ui
-- Icons: Lucide React
+- **Primary Color**: #3B82F6 (blue)
+- **Font**: Inter
+- **Spacing**: 8px unit system
+- **Components**: shadcn/ui
+- **Icons**: Lucide React
 
 ---
 
 ## 📱 Responsive Breakpoints
-- Mobile: <768px
-- Tablet: 768px–1024px
-- Desktop: >1024px
+- **Mobile**: <768px
+- **Tablet**: 768px–1024px
+- **Desktop**: >1024px
 
 ---
 
@@ -162,13 +162,13 @@
 ---
 
 ## 🙌 Acknowledgements
-- Next.js
-- Typescript
-- Redux Toolkit
-- Redux Saga
-- Tailwind CSS
-- shadcn/ui
-- DummyJSON
+- **Next.js**
+- **Typescript**
+- **Redux Toolkit**
+- **Redux Saga**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **DummyJSON**
 
 ---
 
