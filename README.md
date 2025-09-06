@@ -1,6 +1,6 @@
 # 🚀 BlogApp - Next.js + Redux-Saga
 
-![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-14+-black?logo=next.js)
 ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-RTK-purple?logo=redux)
 ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-Side%20Effects-green)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css)
@@ -70,3 +70,102 @@
 ├── hooks/                  # Custom React hooks
 ├── types/                  # TypeScript definitions
 └── utils/                  # Utility helpers
+```
+
+---
+
+## ⚡ Getting Started
+
+1. **Clone & install dependencies**
+   ```bash
+   git clone https://github.com/yourusername/blog-app.git
+   cd blog-app
+   npm install
+   ```
+2.	Run development server
+    ```bash
+    npm run dev
+    ```
+3.	Demo login credentials
+  	```bash
+    Username: emilys
+    Password: emilyspass
+    ```
+
+
+🔑 Key Implementation Details
+
+Redux + Saga
+	•	Configured with Redux Toolkit for slices
+	•	Saga middleware for async flows & side effects
+	•	Separation of slices and sagas for clean structure
+
+Authentication Flow
+	•	Login form with validation & error handling
+	•	Token persisted in localStorage
+	•	Protected routes via HOC
+	•	Auto session validation on refresh
+
+Data Fetching
+	•	All async handled via Saga workers
+	•	Loading & error states handled in Redux
+	•	Optimistic updates & proper cleanup
+
+UI/UX
+	•	Tailwind CSS + shadcn/ui components
+	•	Mobile-first responsive design
+	•	Smooth animations & hover states
+
+⸻
+
+📊 Core Pages
+	•	🏠 Home – Highlights app features
+	•	📰 Blog – Post listing with search
+	•	📝 Blog Detail – Individual post view
+	•	📊 Dashboard – Auth-protected user area
+	•	🔑 Login – Auth with demo credentials
+	•	📖 About / Contact – Extra pages
+
+⸻
+
+🔒 Security
+	•	✅ Authenticated route protection
+	•	✅ Token validation & persistence
+	•	✅ Error boundaries for runtime safety
+	•	✅ Proxying API routes securely
+
+⸻
+
+🎨 Design System
+	•	Primary Color: #3B82F6 (blue)
+	•	Font: Inter
+	•	Spacing: 8px unit system
+	•	Components: shadcn/ui
+	•	Icons: Lucide React
+
+⸻
+
+📱 Responsive Breakpoints
+	•	Mobile: <768px
+	•	Tablet: 768px–1024px
+	•	Desktop: >1024px
+
+⸻
+
+📝 License
+
+This project is licensed under the MIT License – feel free to use, learn, and build upon it.
+
+⸻
+
+🙌 Acknowledgements
+	•	Next.js
+	•	Redux Toolkit
+	•	Redux Saga
+	•	Tailwind CSS
+	•	shadcn/ui
+	•	DummyJSON
+
+⸻
+
+⭐ If you like this project, consider giving it a star on GitHub — it motivates me to build more!
