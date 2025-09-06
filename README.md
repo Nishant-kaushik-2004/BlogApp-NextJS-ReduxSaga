@@ -1,119 +1,72 @@
-# BlogApp - Next.js with Redux-Saga
+# 🚀 BlogApp - Next.js + Redux-Saga
 
-A full-featured blog application built with Next.js, Redux Toolkit, and Redux-Saga demonstrating modern React development patterns, state management, and side effect handling.
+![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)
+![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-RTK-purple?logo=redux)
+![Redux Saga](https://img.shields.io/badge/Redux%20Saga-Side%20Effects-green)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-## 🚀 Features
+> A **full-featured blog application** showcasing modern **Next.js App Router**, **Redux Toolkit + Redux-Saga**, **authentication**, **SSR/SSG**, and **responsive design**.  
+> Built as an **internship assignment** and polished for my **portfolio**.
 
-- **Modern Blog Interface**: Clean, responsive design with smooth animations
-- **Authentication System**: Login/logout with DummyJSON API integration
-- **Protected Routes**: Dashboard accessible only to authenticated users
-- **State Management**: Redux Toolkit with Redux-Saga for async operations
-- **Server-Side Rendering**: SSR and SSG implementation
-- **API Routes**: Custom Next.js API endpoints
-- **SEO Optimized**: Proper meta tags and structured data
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
+---
+
+## ✨ Features
+
+- 📰 **Modern Blog Interface** – Clean, responsive, mobile-first UI  
+- 🔐 **Authentication System** – Login/logout with DummyJSON API  
+- 🛡 **Protected Routes** – Dashboard for authenticated users only  
+- ⚡ **State Management** – Redux Toolkit + Redux-Saga for async flows  
+- 🌐 **Server-Side Rendering (SSR) + SSG** – SEO & performance optimized  
+- 🛠 **Custom API Routes** – Extendable Next.js API layer  
+- 🎨 **Responsive Design** – Tailwind CSS + shadcn/ui components  
+- 📱 **Cross-Device Ready** – Works on mobile, tablet, and desktop  
+
+---
+
+## 🖼 Preview
+
+### 🔹 Home Page
+![Home Screenshot](./screenshots/home.png)
+
+### 🔹 Blog Listing with Search
+![Blog Screenshot](./screenshots/blog.png)
+
+### 🔹 Protected Dashboard
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+👉 **Live Demo**: [https://nishant-blog.vercel.app](https://nishant-blog.vercel.app)
+
+---
 
 ## 🛠 Tech Stack
 
-- **Framework**: Next.js 13+ with App Router
-- **State Management**: Redux Toolkit + Redux-Saga
-- **Styling**: Tailwind CSS + shadcn/ui components
-- **TypeScript**: Full type safety
-- **API**: DummyJSON for demo data
-- **Icons**: Lucide React
+- **Framework**: [Next.js 13+ App Router](https://nextjs.org/)  
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) + [Redux-Saga](https://redux-saga.js.org/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)  
+- **Language**: [TypeScript](https://www.typescriptlang.org/)  
+- **API**: [DummyJSON](https://dummyjson.com/) for demo data  
+- **Icons**: [Lucide React](https://lucide.dev/)  
 
-## 📁 Project Structure
+---
 
-```
-├── app/                    # Next.js app router pages
-│   ├── api/               # API routes
-│   ├── blog/              # Blog pages
-│   ├── dashboard/         # Protected dashboard
-│   └── login/             # Authentication
-├── components/            # Reusable UI components
-│   ├── ui/               # shadcn/ui base components
-│   ├── HOC/              # Higher-order components
-│   └── [ComponentName]/   # Feature components
-├── store/                 # Redux store configuration
-│   ├── slices/           # Redux Toolkit slices
-│   └── sagas/            # Redux-Saga effects
-├── services/             # API service layers
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility libraries
-├── types/                # TypeScript type definitions
-└── utils/                # Helper functions
-```
+## 📂 Project Structure
 
-## 🔧 Getting Started
-
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-2. **Start development server**:
-   ```bash
-   npm run dev
-   ```
-
-3. **Demo Login Credentials**:
-   - Username: `emilys`
-   - Password: `emilyspass`
-
-## 📚 Key Implementation Details
-
-### Redux Store Setup
-- Configured with Redux Toolkit for efficient state management
-- Redux-Saga middleware for handling side effects
-- Separate slices for authentication and posts
-
-### Authentication Flow
-- Login form with validation and error handling
-- Token-based authentication with localStorage persistence
-- Protected routes using HOC pattern
-- Automatic token validation and user session management
-
-### Data Fetching
-- Redux-Saga handles all async operations
-- Error states and loading indicators
-- Optimistic updates where appropriate
-- Proper cleanup and memory management
-
-### Responsive Design
-- Mobile-first approach with Tailwind CSS
-- Consistent spacing and typography
-- Interactive elements with hover states
-- Smooth transitions and animations
-
-## 🎯 Core Pages
-
-1. **Home**: Hero section with feature highlights
-2. **Blog**: Post listing with search functionality
-3. **Blog Detail**: Individual post view with engagement metrics
-4. **About**: Company story and values
-5. **Contact**: Contact form and information
-6. **Dashboard**: Protected user dashboard with stats
-7. **Login**: Authentication with demo credentials
-
-## 🔒 Security Features
-
-- Route protection with authentication checks
-- Token validation and refresh handling
-- Error boundary implementation
-- Secure API endpoint proxying
-
-## 📱 Responsive Breakpoints
-
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-
-## 🎨 Design System
-
-- **Primary Color**: Blue (#3B82F6)
-- **Typography**: Inter font family
-- **Spacing**: 8px base unit system
-- **Components**: shadcn/ui component library
-- **Icons**: Lucide React icon set
-
-This project demonstrates best practices for modern React applications with proper state management, side effect handling, and user experience design.
+```bash
+├── app/                    # Next.js app router
+│   ├── api/                # API routes
+│   ├── blog/               # Blog pages
+│   ├── dashboard/          # Protected dashboard
+│   └── login/              # Auth pages
+├── components/             # UI & feature components
+│   ├── ui/                 # shadcn/ui primitives
+│   ├── HOC/                # Higher-order components
+│   └── Card/               # Post cards etc.
+├── store/                  # Redux store setup
+│   ├── slices/             # RTK slices
+│   └── sagas/              # Saga workers/watchers
+├── services/               # API service layers
+├── hooks/                  # Custom React hooks
+├── types/                  # TypeScript definitions
+└── utils/                  # Utility helpers
