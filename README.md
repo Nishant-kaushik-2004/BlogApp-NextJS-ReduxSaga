@@ -121,12 +121,12 @@
 ---
 
 ## 📊 Core Pages
-- 🏠 Home – Highlights app features
-- 📰 Blog – Post listing with search
-- 📝 Blog Detail – Individual post view
-- 📊 Dashboard – Auth-protected user area
-- 🔑 Login – Auth with demo credentials
-- 📖 About / Contact – Extra pages
+- **🏠 Home** – Highlights app features
+- **📰 Blog** – Post listing with search
+- **📝 Blog Detail** – Individual post view
+- **📊 Dashboard** – Auth-protected user area
+- **🔑 Login** – Auth with demo credentials
+- **📖 About / Contact** – Extra pages
 
 ---
 
