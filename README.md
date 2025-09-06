@@ -78,7 +78,7 @@
 
 1. **Clone & install dependencies**
    ```bash
-   git clone https://github.com/yourusername/blog-app.git
+   git clone https://github.com/Nishant-kaushik-2004/BlogApp-NextJS-ReduxSaga/
    cd blog-app
    npm install
    ```
@@ -157,7 +157,7 @@
 
 ## 📝 License
 
-### This project is licensed under the MIT License – feel free to use, learn, and build upon it.
+**This project is licensed under the MIT License – feel free to use, learn, and build upon it.**
 
 ---
 
